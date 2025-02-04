@@ -1,57 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <style> {
+    
+    <h1>What's on your mind?</h1>
+    <p span style="
+    margin-left: 80px; 
+    font-weight: bolder;
+    font-size: 30px;
+    color: #878787;
+    ">mo tuo buang</p>
+    
+    <style>
+    
+      body {
+        background-color: #9d9d9d;
+      }
       
-    }
-    .AI {
-      background-color: red;
-      width: 250px;
-      height: 50px;
-      color: black;
-      font-size: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 30px;
-    }
-    .mind {
-      margin: 140px 128px
-    }
-    .mit {
-      background-color: #414141;
-      color: white;
-      height: 40px;
-      width: 150px;
-      margin-left: 13px;
-      border-radius: 30px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
-    }
-    .mit:active {
-      background-color: white;
-      color: black;
-      box-shadow: none;
-    }
-    .mit:hover {
-      box-shadow: none;
-    }
+      body .chat {
+        display: flex;
+        justify-content: center;
+        margin-top: 160px;
+      }
+      
+      .chat .send {
+        background-color: #fa5b00;
+        box-shadow: 0px 0px 20px;
+        height: 50px;
+        width: 120px;
+      }
+      
+      .chat .bruh {
+        box-shadow: 0px 0px 20px;
+      }
+      
+      .chat .send:hover {
+        box-shadow: none;
+        color: white;
+        background-color: #ffab7b;
+      }
     </style>
   </head>
   <body>
-    <h1 class="AI">Powered by AI</h1>
-    
-    <div class="mind">
+    <div class="chat">
       
-    <input type="search" placeholder="What's on your mind?">
-      <br> </br>
-    <input type="submit" class="mit" onclick="msg()">
-    
-    <script>
-      function msg() {
-        alert("i miss u po!🥺");
+      <input type="search" class="bruh" placeholder="   &nbsp;  Pangutana diri">&nbsp;
+      
+      <button class="send" onclick="mgs()">Send</button>
+      
+      <script>
+      
+        function mgs() {
+          alert("Unstable network kay baho ka'g ilok!");
         }
-    </script>
-    </div>
+        
+      </script>
     </div>
   </body>
 </html>
