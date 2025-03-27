@@ -6,7 +6,7 @@
   <body>
     <button class="button" onclick="mgs()">enter</button>
     <script msg()> {
-      alert("bahu kayka!")
+      alert("website couldn't load kay bahu kayka!")
     }
     </script>
   </body>
